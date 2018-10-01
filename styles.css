@@ -17,5 +17,10 @@
   color: white;
 }
 .card{
-  width: 475px;
+  color: black;
+  text-align: center;
+}
+.card:hover{
+  text-decoration: none;
+  color: coral;
 }
