@@ -8,7 +8,14 @@
   text-align: center;
   color: white;
   height:600px;
-  
+
   padding: 0;
   margin: 0;
+}
+#first:hover{
+  text-decoration: none;
+  color: white;
+}
+.card{
+  width: 475px;
 }
