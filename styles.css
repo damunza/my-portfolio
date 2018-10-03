@@ -16,11 +16,46 @@
   text-decoration: none;
   color: white;
 }
-.card{
+.forth{
   color: black;
   text-align: center;
+  width: 475px;
 }
-.card:hover{
+.forth:hover{
   text-decoration: none;
   color: coral;
+}
+#second{
+  overflow: hidden;
+  background-color: #ffff00;
+}
+#second a{
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+#second a:hover{
+  background-color: coral;
+  color: black;
+}
+.sticky{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.content{
+  padding: 16px;
+}
+.sticky + .content {
+  padding-top: 60px;
+}
+#third{
+  text-align: center !important;
+}
+#five{
+  padding-top: 20px;
 }
