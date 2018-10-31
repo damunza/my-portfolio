@@ -32,7 +32,10 @@ body{
   text-decoration: none;
   color: coral;
 }
-
+#two{
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+}
 #second{
   overflow: hidden;
   background-color: #ffff00;
@@ -66,12 +69,45 @@ body{
 }
 #five{
   padding-top: 20px;
+
+  width: 400px;
+  height: 400px;
+}
+.five{
+  background-color: #80ffd4;
+}
+#con{
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all 0.5s ease;
+  background-color: #b3ffe6;
+}
+#con:hover{
+  transform: rotateY(180deg);
+}
+#front{
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #b3ffe6;
+}
+#back{
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  background-color: #99ffdd;
+  transform: rotateY(180deg);
 }
 .img-five{
-  height:200px;
-  width:200px;
+  height:300px;
+  width:300px;
   border-radius: 50%;
 }
 .card{
   border: hidden;
+}
+.btn{
+  background-color: #00e699;
+  background-color: #99ffdd;
 }
