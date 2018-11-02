@@ -23,6 +23,9 @@ body{
   text-decoration: none;
   color: white;
 }
+.navbar{
+  font-family: 'Play', sans-serif;
+}
 .forth{
   color: black;
   text-align: center;
@@ -33,7 +36,7 @@ body{
   color: coral;
 }
 #two{
-  font-family: 'Kaushan Script', cursive;
+  font-family: 'Teko', sans-serif;
   text-align: center;
 }
 #second{
@@ -64,6 +67,9 @@ body{
 .sticky + .content {
   padding-top: 60px;
 }
+#three{
+  font-family: 'Play', sans-serif;
+}
 #third{
   text-align: center !important;
 }
@@ -74,14 +80,17 @@ body{
   height: 400px;
 }
 .five{
-  background-color: #80ffd4;
+  background-color: #fff;
+}
+.name{
+  font-family: 'Concert One', cursive;
 }
 #con{
   width: 100%;
   height: 100%;
   transform-style: preserve-3d;
   transition: all 0.5s ease;
-  background-color: #b3ffe6;
+  background-color: #fff;
 }
 #con:hover{
   transform: rotateY(180deg);
@@ -90,13 +99,13 @@ body{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background-color: #b3ffe6;
+  background-color: #fff;
 }
 #back{
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
-  background-color: #99ffdd;
+  background-color: #fff;
   transform: rotateY(180deg);
 }
 .img-five{
@@ -109,5 +118,5 @@ body{
 }
 .btn{
   background-color: #00e699;
-  background-color: #99ffdd;
+  /* background-color: #99ffdd; */
 }
