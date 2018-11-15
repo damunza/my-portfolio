@@ -9,7 +9,9 @@ body{
 }
 #one{
   margin: 0;
-  background-image: url('images/dev1.jpeg');
+  background-image: url('images/code.jpeg');
+  opacity: 1.5;
+  font-size: 40em;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -33,7 +35,7 @@ body{
 }
 .forth:hover{
   text-decoration: none;
-  color: coral;
+  color: black;
 }
 #two{
   font-family: 'Teko', sans-serif;
@@ -119,4 +121,23 @@ body{
 .btn{
   background-color: #00e699;
   /* background-color: #99ffdd; */
+}
+.winter{
+  background-color: black;
+  color: white;
+}
+.winter:hover{
+  color: white;
+  text-decoration: none;
+}
+.card-footer{
+  background-color: white;
+}
+.summer{
+  background-color: white;
+  color:black;
+}
+.summer:hover{
+  text-decoration: none;
+  color: black;
 }
