@@ -9,3 +9,27 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+$(document).ready(function() {
+
+  $('#A').click(function() {
+    $('#three').hide();
+    $('#five').hide();
+    $('#two').show();
+  })
+
+
+// displaying projects
+  $('#B').click(function() {
+    $('#two').hide();
+    $('#three').show();
+  })
+
+// displaying contact
+  $('#C').click(function() {
+    $('#two').hide();
+    $('#three').hide();
+    $('#five').show();
+  })
+
+})

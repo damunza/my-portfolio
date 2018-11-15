@@ -9,7 +9,7 @@ body{
 }
 #one{
   margin: 0;
-  background-image: url('images/code.jpeg');
+  background-image: url('images/dev1.jpeg');
   opacity: 1.5;
   font-size: 40em;
   background-repeat: no-repeat;
@@ -70,12 +70,14 @@ body{
   padding-top: 60px;
 }
 #three{
+  display: none;
   font-family: 'Play', sans-serif;
 }
 #third{
   text-align: center !important;
 }
 #five{
+  display: none;
   padding-top: 20px;
 
   width: 400px;
